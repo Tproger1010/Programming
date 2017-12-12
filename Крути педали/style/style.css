@@ -1,0 +1,98 @@
+#a_price{                          /*Ссылка*/
+    text-decoration: none; 
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 50px;
+    font-size: 45px;
+    color: black;
+}
+
+#d_price{                       /*Кнопка*/
+    display: inline-block;
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    margin-top: 225px;
+    margin-left: 900px;
+}
+
+#a_instruction {
+    text-decoration: none; 
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 40px;
+    color: black;
+}
+
+#d_instruction {
+    display: inline-block;
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    margin-top: 400px;
+    margin-left: 900px; 
+}
+
+#d_registr {
+    display: inline-block;
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    margin-top: 225px;
+    margin-left: 180px; 
+}
+
+#a_registr {
+    text-decoration: none; 
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 5px;
+    font-size: 40px;
+    color: black;
+}
+
+#d_photo {
+    display: inline-block;
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    margin-top: 400px;
+    margin-left: 180px; 
+}
+
+#a_photo {
+    text-decoration: none; 
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 0px;
+    font-size: 40px;
+    color: black;
+}
+
+body{                            /*Тело документа*/
+	background-color: black;
+}
+.object {                 /*Велосипед*/
+	margin-left: 505px;
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
+}
+#logo{                    /*Логотип*/
+	position: absolute;
+	margin:0;
+    margin-left: 500px;
+}
+#axis:hover .move-right{              /*Движение велосипеда*/
+    transform: translate(230px,0);
+    -webkit-transform: translate(230px,0); /** Chrome & Safari **/
+    -o-transform: translate(270px,0); /** Opera **/
+    -moz-transform: translate(270px,0); /** Firefox **/
+}
